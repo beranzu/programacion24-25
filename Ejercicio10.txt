@@ -1,0 +1,23 @@
+
+Ejercicio10
+
+Diseña un algoritmo en pseudocódigo que lee dos números y muestra el mayor.
+
+Inicio
+    Leer n1;
+    Leer n2;
+    
+    Si (n1 > n2) Entonces
+        Mostrar "n1 es mayor";
+    Sino Si (n1 < n2) Entonces
+        Mostrar "n2 es mayor";
+    Sino
+        Mostrar "Son iguales";
+    Fin Si
+Fin
+
+------------Correcion-----------------
+
+Esta bien, he añadido la comparacion del igual pero NO se pedia, no era necesario, 
+suficiente con quedarse en las dos primeras condidiciones. 
+

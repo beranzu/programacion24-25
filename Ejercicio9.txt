@@ -1,0 +1,12 @@
+
+Ejercicio9
+
+Diseña un algoritmo en pseudocódigo 
+para calcular el número de horas que hay en 10 años
+
+Inicio
+	-- Calcular el numero de horas directamente	
+	nHoras <- 8*(365 * 24) + 2*(366 * 24);
+	
+	Mostrar nHoras;
+Fin

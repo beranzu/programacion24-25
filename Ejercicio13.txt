@@ -1,0 +1,21 @@
+
+Ejercicio13
+ 
+ Dado el siguiente algoritmo descrito en pseudocódigo, 
+ explica brevemente qué hace y cuál sería el resultado
+ mostrado si el valor R leído fuera 2.
+
+
+Inicio
+	Leer R
+	A = 3,14 * R * R
+	Mostrar A
+Fin
+
+Respuesta mia: 
+
+El algoritmo trata de resolver el area de un circulo, 
+con la formula pi * r al cuadrado (r*r) y mostrar Area 
+
+si el radio fuera 2, seria unos 12,56
+

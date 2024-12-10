@@ -1,0 +1,15 @@
+
+Ejercicio6
+
+Diseña un algoritmo en pseudocódigo que calcule 
+el área de un cuadrado y lo muestre.
+
+Inicio
+
+	Leer lado;
+	
+	 area = lado * lado; // asignacion y no igualdad
+	
+	Mostrar area;
+	
+Fin

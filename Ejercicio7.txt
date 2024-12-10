@@ -1,0 +1,25 @@
+
+Ejercicio7 
+
+Diseña un algoritmo en pseudocódigo que lea dos números, calcule y 
+muestre el valor de su suma, resta, producto y división.
+
+Inicio
+
+	Leer n1;
+	Leer n2;
+	
+	suma = n1 + n2;
+	Mostrar suma;
+	
+	resta = n1 - n2;
+	Mostrar resta;
+	
+	producto = n1 * n2;
+	Mostrar producto;
+	
+	division = n1 / n2;
+	Mostrar division;
+	
+Fin
+	

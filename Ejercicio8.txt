@@ -1,0 +1,20 @@
+
+Ejercicio8 
+
+Diseña un algoritmo en pseudocódigo que dado el precio de un 
+producto aplique el porcentaje de descuento que debe aplicarse 
+y muestre el precio final.
+
+Inicio
+    Leer precio;
+    Leer porcentajeDescuento;
+
+    -- Calcular el valor del descuento
+    descuento <- precio * (porcentajeDescuento / 100);
+
+    -- Calcular el precio final aplicando el descuento
+    precioFinal <- precio - descuento;
+
+    -- Mostrar el precio final
+    Mostrar precioFinal;
+Fin

@@ -1,0 +1,25 @@
+
+Ejercicio11
+
+Diseña un algoritmo en pseudocódigo que te pida tu edad
+e indique si eres mayor de edad o no.
+
+Inicio
+	Pedir edad;
+	
+	Si (edad >= 18) { ---"Entonces"
+		Mostrar es mayor de edad;
+	} 
+	Si no { ---"Entonces"
+		Mostrar es menor de edad;
+	}
+	Fin Si
+Fin
+
+------Correcion GPT----------
+	
+	Uso de Sino: Es más claro y compacto que usar Si no. 
+Directamente indica qué hacer si no se cumple la condición.
+
+	Eliminación de Llaves {}: No son necesarias en pseudocódigo.
+Se usan en lenguajes como Java, pero en pseudocódigo, los bloques se delimitan con palabras clave como Fin Si.

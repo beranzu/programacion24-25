@@ -1,0 +1,41 @@
+
+Ejercicio12
+
+Diseña un algoritmo en pseudocódigo que lee dos números
+y muestra el mayor o si son iguales.
+
+Inicio
+	Leer n1;
+	Leer n2;
+	
+	Si (n1>n2) {
+		Mostrar n1 es mayor;
+	}
+	Si no (n1<n2) {
+		Mostrar n2 es mayor;
+	}
+	Si no {
+		Mostrar son iguales;
+	}
+Fin
+
+
+** GPT me da otra version corregida respecto a los si - sino:
+Si no mal posicionado: 
+En pseudocódigo, el Si no debe ir asociado al último Si como una rama "alternativa". 
+No puede ser independiente.
+Estructura anidada o encadenada: 
+Es mejor utilizar Si - Si no (o Si - Sino) para que el flujo sea más claro y compacto.
+
+Inicio
+    Leer n1;
+    Leer n2;
+    
+    Si (n1 > n2) Entonces
+        Mostrar n1 es mayor;
+    Sino Si (n1 < n2) Entonces
+        Mostrar n2 es mayor;
+    Sino
+        Mostrar son iguales;
+    Fin Si
+Fin
